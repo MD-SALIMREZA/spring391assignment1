@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+
+}
+#header{
+  
+    margin: 0px;
+   
+background-image: url(assets/new.jpg);
+   
+}
+#nav{
+  padding-top: 40px;
+}
+.logo img{
+  position: fixed;
+  height: 50px;
+  top: 20px;
+  left: 8px;
+  border-radius: 50px;
+  z-index: 5;
+  border: 2px solid rgb(249, 245, 1);
+
+}
+
+.internal-links{
+width: 65%;
+text-align: right;
+background:rgb(197, 186, 186);
+
+margin: auto;
+border-radius: 25px;
+padding: 15px;
+z-index: 10;
+border: 2px solid rgb(0, 0, 0);
+
+}
+
+.internal-links a{
+
+text-decoration: none;
+color: rgb(251, 244, 146);
+font-size: 22px;
+font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 50px;
+
+}
+
+.welcome{
+ padding-top: 60px;
+text-align: center;
+font-size: 32px;
+color: rgb(215, 215, 236);
+background-color: antiquewhite;
+max-width: 85%;
+margin: auto;
+margin-top: 40px;
+height: 90vh;
+border-radius: 15px;
+background-image: url("assets/pic.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: .8;
+  z-index: 10; 
+  border: 2px solid white;
+
+}
+.welcome h1{
+    font-weight: normal;
+    font-style: italic;
+   
+}
+
+
+.info-parent{
+    padding-top: 100px;
+    display: flex;
+    min-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.info, .hobbies,
+.favourite{
+  width: 22%;
+   color: rgba(25, 17, 17, 0.749);
+min-height: 35vh;
+text-align: center;
+border-radius: 9px;
+margin-right: 20px;
+padding-top: 50px;
+line-height: 22px;
+background-color: rgb(168, 167, 155);
+font-size: 18px;
+border: 2x solid black;
+
+
+}
+.info h1{
+  padding-bottom: 20px;
+}
+.info h3{
+  padding: 5px;
+  font-weight: 400;
+}
+.favourite{
+  padding-top: 35px;
+}
+.favourite div{
+  padding-top: 10px;
+}
+.favourite a{
+text-decoration: none;
+color: blue;
+}
+.hobbies{
+  min-height: 65vh;
+  width: 26%;
+  background-color: rgb(220, 220, 193);
+  color: rgb(50, 50, 49);
+  padding-top: 30px;
+
+}
+.hobbies h1{
+  text-decoration: underline;
+  font-family:cursive;
+  padding-top: 10px;
+
+}
+.hobbies p{
+  text-align: left;
+  padding: 15px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  font-family:cursive;
+  
+}
+
+.my_lists{
+   max-width:50%;  
+   margin: auto;
+   margin-top: 60px;
+   min-height: 20vh;
+   background-color: rgb(149, 161, 151);
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: rgba(25, 17, 17, 0.749);
+}
+
+.my_lists img{
+  border-radius: 5px;
+}
+li{
+padding: 10px;
+font-size: 22px;
+
+z-index: 10;
+text-decoration: underline;
+}
+.imgs{
+  display: flex;
+}
+.imgs img{
+  border-radius: 10px;
+  padding: 5px;
+  height: 120px;
+  width: 120px;
+}
+
+#table{
+  min-height: 50vh;
+  margin: 40px;
+  margin-top: 100px;
+  padding-top: 15vh;
+  padding-bottom: 20vh;
+
+}
+.table-content h1{
+  font-size: 28px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+
+table, th, td {
+  border: 2px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding:10px;
+  margin: auto;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(168, 167, 155);
+}
+
+#quote{
+  min-height: 30vh;
+  text-align: center;
+  background-color: rgb(42, 32, 32);
+  border-top: 4px solid white;
+}
+
+.quotes{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: cursive;
+  color: rgb(255, 167, 99);
+}
+
+#jss{
+  background-color: rgb(42, 32, 32);
+  color: rgb(252, 215, 52);
+  text-align: right;
+
+}
+#jss div{
+  padding: 5px;
+}
+

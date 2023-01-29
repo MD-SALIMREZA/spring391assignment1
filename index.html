@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>My-info-page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <section id="header">
+       <section id="nav">
+        <div class="logo">
+            <img src="assets/391.png" alt="image" >
+        </div>
+
+        <div class="internal-links">
+            
+            <a href="#detail" class="my-links">Info</a> 
+            <a href="#list" class="my-links">Fav_list</a>
+            <a href="#table" class="my-links">Table</a>
+            <a href="#quote" class="my-links">Quote</a>
+            <a href="#jss" class="my-links">JS_functions</a>
+            </div>
+
+    
+        <div class="welcome">
+           <h1>Hey there!</h1> 
+           <h1> I am Md.Salim Reza.</h1>
+
+          </div>
+       </section>
+
+<section id="detail">
+    
+    <div class="info-parent">
+
+        <div class="info">
+            <h1 style="font-weight: bold;">Short-Intro</h1>
+       <h3>Name:md.Salim Reza</h3>
+      <h3>Blood group:O<sup>+</sup></h3>
+       <h3>Dept:CSE</h3>
+       <h3>Religion:Islam</h3>
+       </div>
+
+       <div class="hobbies">
+        <h1>My Hobbies</h1>
+           <p>hobbies are such an activity which grabs a peerson's complete engagement,
+            as it delivers immense pleasure and joy.My hobbies are painting and fishing..!!
+           </p>
+           <p>whenever i get the opportunity to visit my village, i just love to catch fish using hooks from our pond as it feels quite good  knowing  that you caught the fish !!</p>
+
+       </div>
+
+       <div class="favourite">
+          <h1> Click below to connect  </h1>
+       <div>   <a href="https://www.bracu.ac.bd/" class="" target="_blank">Brac_University</a></div> 
+         
+           <div><a href="https://piazza.com/class/ld9m5xqo1fp4zg/post/6" class="" target="_blank">Contact me through My piazza group</a></div>
+           
+           <div><a href="https://github.com/MD-SALIMREZA" class="" target="_blank">Github</a></div>
+
+           <div><a href="https://www.facebook.com/salim.r.rj/" class="" target="_blank">Facebook </a> </div>
+       </div>
+    </div>
+
+</section>
+    
+
+
+  
+<section id="list">
+  
+    <div class="my_lists">
+        <h1>List of my favourite movies..!</h1>
+        <ul >
+        <li> The Shawshank Redemption</li>
+               
+
+              <li> The Persuit of Happiness</li>
+                     
+
+           <li> Life of Pi</li>
+
+          </ul>
+          <h1 style="text-align: center; color: rgb(0, 255, 238); font-size: 22px;">Posters</h1>
+          <div class="imgs">
+           
+            <div> <img src="assets/shawshank.jpg" alt="image" ></div>
+            <div><img src="assets/pi.jpg" alt="image"> </div>
+            <div> <img src="assets/persuit.jpg" alt="image"></div>
+          </div>
+
+
+      </div>
+</section>
+
+<section id="table">
+    <div class="table-content">
+        <h1>Table_Data</h1>
+        <table style="width:70%" class="tbl">
+            <tr>
+              <th>Name</th>
+              <td>Md.Salim Reza</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Phone</th>
+              <td>555-1234</td>
+            </tr>
+            <tr>
+              <td>555-8745</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Address</th>
+                <td>Upozilla:Saidpur.</td>
+              </tr>
+              <tr>
+                <td>Zilla:Nilphamary</td>
+              </tr>
+              <tr>
+                <th>University</th>
+                <td>Brac University</td>
+              </tr>
+              <tr>
+                <th>College</th>
+                <td>Saidpur Govt. Science College</td>
+              </tr>
+          </table>
+    </div>
+</section>
+
+<section id="quote">
+    <div class="quotes">
+        I came I saw I conquered(Veni Vidi Vici) <sub><i>Julius Caesar</i>
+        </sub>
+</div>
+</section>
+  
+<section id="jss">
+    <div><p id="js1"></p></div>
+    <div><p id="js2"></p></div>
+
+    <div><p id="js3"></p></div>
+</section>
+
+
+    </section>
+    <script>
+        document.getElementById("js1").innerHTML = 
+        "The Location of this page is:<br>" + window.location.href;
+
+        document.getElementById("js2").innerHTML = " Page path is: " + window.location.pathname;
+       
+
+        document.getElementById("js3").innerHTML = 
+        "Last modified:<br>"+document.lastModified;
+        </script>
+</body>
